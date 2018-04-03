@@ -27,4 +27,18 @@ public class RegLoginController {
         return "signIn";
     }
 
+    @RequestMapping("/httpapi")
+    public String httpApi(){
+        return "httpapi";
+    }
+
+    @RequestMapping("/httpsuit")
+    public String httpSuit(){
+        return "httpsuit";
+    }
+    @RequestMapping("/httpreport")
+    public String httpReport(){
+        return "httpreport";
+    }
+
 }
