@@ -14,6 +14,6 @@ public class RegController {
     @RequestMapping(value = "/doReg", method = RequestMethod.POST)
     public String doReg(@RequestParam("email") String Email, @RequestParam("password") String password){
 
-        return "redirect:index";
+        return "redirect:login";
     }
 }
